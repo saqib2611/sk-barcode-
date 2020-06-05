@@ -1,0 +1,95 @@
+.nav-link{
+    color: whitesmoke !important;
+}
+.hd{
+    color: teal;
+}
+.nv{
+    color: white;
+    text-decoration: none !important;
+}
+.fa-shopping-cart ,.fa-user-circle-o{
+    font-size: 32px !important ;
+}
+.mega-menu{
+    width: 500px;
+    overflow: hidden;
+    color: beige !important;
+}
+.fa-truck ,.fa-thumbs-up ,.fa-headphones{
+    font-size: 50px !important ;
+    padding-right: 20px;
+}
+.card1 ,.card2, .card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.maincard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 600px){
+    .card1 ,.card2, .card3,{
+        width: 100%;
+    }
+}
+.Arrival{
+    margin-top: 50px;
+}
+.btn btn-primary{
+    width: 100%;
+    background-color:  #F48FB1;
+    text-align: center;
+    justify-content: center;
+}
+.Card{
+width: 300px;
+height: 300px;
+font-weight: bold;
+
+}
+.card-title, .card-text{
+    font-weight: bold;
+    
+}
+h1{
+    text-align: center;
+    color: teal;
+    font-size: 70px;
+}
+/* @media screen and (max-width: 600px){
+    .card{
+    
+} */
+/* .hd{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+
+h6{
+    justify-content: right;
+}
+#header{
+     background-color:  #F48FB1 !important; 
+     padding: 10px;
+    
+    
+}
+.fa-phone-square, .fa-envelope-o,.fa-bars{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.fa-facebook-official,.fa-instagram,.fa-youtube-play ,.fa-twitter ,.fa-linkedin{
+    font-size: 30px !important;
+    color: seashell;
+    padding: 3px;
+}
